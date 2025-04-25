@@ -2,7 +2,7 @@ import { useRef } from "react";
 import Card from "../components/Card";
 import { Globe } from "../components/Globe";
 import CopyEmailButton from "../components/CopyEmailButton";
-import { Frameworks } from "../components/FrameWorks";
+import { FrameWorks } from "../components/FrameWorks"
 
 const About = () => {
   const grid2Container = useRef();
@@ -85,12 +85,12 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
-              I specialize in a variety of languages, frameworks, and tools that
+              I specialize in a variety of languages, FrameWorks, and tools that
               allow me to build robust and scalable applications
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
-            <Frameworks />
+            <FrameWorks />
           </div>
         </div>
       </div>
